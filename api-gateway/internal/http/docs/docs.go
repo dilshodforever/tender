@@ -585,6 +585,9 @@ const docTemplate = `{
                     "description": "in days",
                     "type": "integer"
                 },
+                "id": {
+                    "type": "string"
+                },
                 "price": {
                     "type": "number"
                 },

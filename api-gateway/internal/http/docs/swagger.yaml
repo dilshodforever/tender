@@ -31,6 +31,8 @@ definitions:
       delivery_time:
         description: in days
         type: integer
+      id:
+        type: string
       price:
         type: number
       status:

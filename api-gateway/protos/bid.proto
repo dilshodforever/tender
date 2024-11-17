@@ -35,6 +35,7 @@ message GetAllBidResponse {
     string status = 5; // "pending", "awarded"
     string created_at = 6;
     GetTenderResponse Tenders =7;
+    string id =8;
 }
 
 message ListBidsRequest {
