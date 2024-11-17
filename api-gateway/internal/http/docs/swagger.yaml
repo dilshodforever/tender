@@ -9,6 +9,8 @@ definitions:
     properties:
       budget:
         type: number
+      client_id:
+        type: string
       deadline:
         type: string
       description:
@@ -52,7 +54,7 @@ definitions:
     type: object
   genprotos.GetAllBidsByUserIdRequest:
     properties:
-      Binds:
+      Bids:
         items:
           $ref: '#/definitions/genprotos.GetAllBidsByUser'
         type: array

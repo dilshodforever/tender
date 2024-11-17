@@ -552,6 +552,9 @@ const docTemplate = `{
                 "budget": {
                     "type": "number"
                 },
+                "client_id": {
+                    "type": "string"
+                },
                 "deadline": {
                     "type": "string"
                 },
@@ -617,7 +620,7 @@ const docTemplate = `{
         "genprotos.GetAllBidsByUserIdRequest": {
             "type": "object",
             "properties": {
-                "Binds": {
+                "Bids": {
                     "type": "array",
                     "items": {
                         "$ref": "#/definitions/genprotos.GetAllBidsByUser"

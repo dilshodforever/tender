@@ -17,7 +17,8 @@ message CreateTenderRequest {
     string description = 2;
     string deadline = 3; 
     float budget = 4;
-    string file_url = 5; 
+    string file_url = 5;
+    string client_id=6; 
 }
 
 message CreatTenderAwardRequest {

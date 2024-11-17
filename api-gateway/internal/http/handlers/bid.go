@@ -125,7 +125,6 @@ func (h *HTTPHandler) ListBids(ctx *gin.Context) {
 			ctx.JSON(500, gin.H{"error": "Failed to parse cached data"})
 			return
 		}
-		ctx.JSON(200, res)
 	} else if err == redis.Nil {
 		// Data not found in Redis, fetch it from the service
 		fmt.Println("Cache miss (postgres)")

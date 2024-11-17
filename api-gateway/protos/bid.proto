@@ -58,9 +58,5 @@ message GetAllBidsByUser{
 
 
 message GetAllBidsByUserIdRequest {
-    repeated GetAllBidsByUser Binds =1;
+    repeated GetAllBidsByUser Bids =1;
 }
-
-
-
-
